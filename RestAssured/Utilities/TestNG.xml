@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+		<classes>
+			<class name="testpackages.TC001_GET_request" />
+			<class name="testpackages.TC002_POST_request" />
+			<class name="testpackages.TC003_GET_request" />
+			<class name="testpackages.TC004_GET_request_AllHeaders" />
+			<class name="testpackages.TC005_GET_JsonReponse" />
+			<class name="testpackages.TC006_GET_request_ExtractValuesOfEachValuesInNodes" />
+			<class name="testpackages.TC007_GET_resquest_BasicAuthentication" />
+
+		</classes>
+	</test>
+</suite>
